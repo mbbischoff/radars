@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03B9EC3A187DF7AF00E2875B /* test_pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 03B9EC39187DF7AF00E2875B /* test_pattern.png */; };
+		03DAB436187DF01A00BB9F35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DAB435187DF01A00BB9F35 /* Foundation.framework */; };
+		03DAB438187DF01A00BB9F35 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DAB437187DF01A00BB9F35 /* CoreGraphics.framework */; };
+		03DAB43A187DF01A00BB9F35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DAB439187DF01A00BB9F35 /* UIKit.framework */; };
+		03DAB440187DF01A00BB9F35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03DAB43E187DF01A00BB9F35 /* InfoPlist.strings */; };
+		03DAB442187DF01A00BB9F35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DAB441187DF01A00BB9F35 /* main.m */; };
+		03DAB446187DF01A00BB9F35 /* DDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DAB445187DF01A00BB9F35 /* DDAppDelegate.m */; };
+		03DAB449187DF01A00BB9F35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03DAB447187DF01A00BB9F35 /* Main.storyboard */; };
+		03DAB44C187DF01A00BB9F35 /* DDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DAB44B187DF01A00BB9F35 /* DDViewController.m */; };
+		03DAB44E187DF01A00BB9F35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03DAB44D187DF01A00BB9F35 /* Images.xcassets */; };
+		03DAB455187DF01A00BB9F35 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DAB454187DF01A00BB9F35 /* XCTest.framework */; };
+		03DAB456187DF01A00BB9F35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DAB435187DF01A00BB9F35 /* Foundation.framework */; };
+		03DAB457187DF01A00BB9F35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DAB439187DF01A00BB9F35 /* UIKit.framework */; };
+		03DAB45F187DF01A00BB9F35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03DAB45D187DF01A00BB9F35 /* InfoPlist.strings */; };
+		03DAB461187DF01A00BB9F35 /* UIInputViewBugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DAB460187DF01A00BB9F35 /* UIInputViewBugTests.m */; };
+		03DAB46C187DF07D00BB9F35 /* DDTextInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DAB46B187DF07D00BB9F35 /* DDTextInputView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03DAB458187DF01A00BB9F35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03DAB42A187DF01A00BB9F35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03DAB431187DF01A00BB9F35;
+			remoteInfo = UIInputViewBug;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03B9EC39187DF7AF00E2875B /* test_pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test_pattern.png; sourceTree = "<group>"; };
+		03DAB432187DF01A00BB9F35 /* UIInputViewBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIInputViewBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03DAB435187DF01A00BB9F35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03DAB437187DF01A00BB9F35 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		03DAB439187DF01A00BB9F35 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		03DAB43D187DF01A00BB9F35 /* UIInputViewBug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIInputViewBug-Info.plist"; sourceTree = "<group>"; };
+		03DAB43F187DF01A00BB9F35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03DAB441187DF01A00BB9F35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03DAB443187DF01A00BB9F35 /* UIInputViewBug-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIInputViewBug-Prefix.pch"; sourceTree = "<group>"; };
+		03DAB444187DF01A00BB9F35 /* DDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDAppDelegate.h; sourceTree = "<group>"; };
+		03DAB445187DF01A00BB9F35 /* DDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDAppDelegate.m; sourceTree = "<group>"; };
+		03DAB448187DF01A00BB9F35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03DAB44A187DF01A00BB9F35 /* DDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDViewController.h; sourceTree = "<group>"; };
+		03DAB44B187DF01A00BB9F35 /* DDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDViewController.m; sourceTree = "<group>"; };
+		03DAB44D187DF01A00BB9F35 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		03DAB453187DF01A00BB9F35 /* UIInputViewBugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIInputViewBugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03DAB454187DF01A00BB9F35 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		03DAB45C187DF01A00BB9F35 /* UIInputViewBugTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIInputViewBugTests-Info.plist"; sourceTree = "<group>"; };
+		03DAB45E187DF01A00BB9F35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03DAB460187DF01A00BB9F35 /* UIInputViewBugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIInputViewBugTests.m; sourceTree = "<group>"; };
+		03DAB46A187DF07D00BB9F35 /* DDTextInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTextInputView.h; sourceTree = "<group>"; };
+		03DAB46B187DF07D00BB9F35 /* DDTextInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTextInputView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03DAB42F187DF01A00BB9F35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DAB438187DF01A00BB9F35 /* CoreGraphics.framework in Frameworks */,
+				03DAB43A187DF01A00BB9F35 /* UIKit.framework in Frameworks */,
+				03DAB436187DF01A00BB9F35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03DAB450187DF01A00BB9F35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DAB455187DF01A00BB9F35 /* XCTest.framework in Frameworks */,
+				03DAB457187DF01A00BB9F35 /* UIKit.framework in Frameworks */,
+				03DAB456187DF01A00BB9F35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03DAB429187DF01A00BB9F35 = {
+			isa = PBXGroup;
+			children = (
+				03DAB43B187DF01A00BB9F35 /* UIInputViewBug */,
+				03DAB45A187DF01A00BB9F35 /* UIInputViewBugTests */,
+				03DAB434187DF01A00BB9F35 /* Frameworks */,
+				03DAB433187DF01A00BB9F35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03DAB433187DF01A00BB9F35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03DAB432187DF01A00BB9F35 /* UIInputViewBug.app */,
+				03DAB453187DF01A00BB9F35 /* UIInputViewBugTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03DAB434187DF01A00BB9F35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03DAB435187DF01A00BB9F35 /* Foundation.framework */,
+				03DAB437187DF01A00BB9F35 /* CoreGraphics.framework */,
+				03DAB439187DF01A00BB9F35 /* UIKit.framework */,
+				03DAB454187DF01A00BB9F35 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03DAB43B187DF01A00BB9F35 /* UIInputViewBug */ = {
+			isa = PBXGroup;
+			children = (
+				03B9EC39187DF7AF00E2875B /* test_pattern.png */,
+				03DAB444187DF01A00BB9F35 /* DDAppDelegate.h */,
+				03DAB445187DF01A00BB9F35 /* DDAppDelegate.m */,
+				03DAB447187DF01A00BB9F35 /* Main.storyboard */,
+				03DAB44A187DF01A00BB9F35 /* DDViewController.h */,
+				03DAB44B187DF01A00BB9F35 /* DDViewController.m */,
+				03DAB44D187DF01A00BB9F35 /* Images.xcassets */,
+				03DAB43C187DF01A00BB9F35 /* Supporting Files */,
+				03DAB46A187DF07D00BB9F35 /* DDTextInputView.h */,
+				03DAB46B187DF07D00BB9F35 /* DDTextInputView.m */,
+			);
+			path = UIInputViewBug;
+			sourceTree = "<group>";
+		};
+		03DAB43C187DF01A00BB9F35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03DAB43D187DF01A00BB9F35 /* UIInputViewBug-Info.plist */,
+				03DAB43E187DF01A00BB9F35 /* InfoPlist.strings */,
+				03DAB441187DF01A00BB9F35 /* main.m */,
+				03DAB443187DF01A00BB9F35 /* UIInputViewBug-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03DAB45A187DF01A00BB9F35 /* UIInputViewBugTests */ = {
+			isa = PBXGroup;
+			children = (
+				03DAB460187DF01A00BB9F35 /* UIInputViewBugTests.m */,
+				03DAB45B187DF01A00BB9F35 /* Supporting Files */,
+			);
+			path = UIInputViewBugTests;
+			sourceTree = "<group>";
+		};
+		03DAB45B187DF01A00BB9F35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03DAB45C187DF01A00BB9F35 /* UIInputViewBugTests-Info.plist */,
+				03DAB45D187DF01A00BB9F35 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03DAB431187DF01A00BB9F35 /* UIInputViewBug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03DAB464187DF01A00BB9F35 /* Build configuration list for PBXNativeTarget "UIInputViewBug" */;
+			buildPhases = (
+				03DAB42E187DF01A00BB9F35 /* Sources */,
+				03DAB42F187DF01A00BB9F35 /* Frameworks */,
+				03DAB430187DF01A00BB9F35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIInputViewBug;
+			productName = UIInputViewBug;
+			productReference = 03DAB432187DF01A00BB9F35 /* UIInputViewBug.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03DAB452187DF01A00BB9F35 /* UIInputViewBugTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03DAB467187DF01A00BB9F35 /* Build configuration list for PBXNativeTarget "UIInputViewBugTests" */;
+			buildPhases = (
+				03DAB44F187DF01A00BB9F35 /* Sources */,
+				03DAB450187DF01A00BB9F35 /* Frameworks */,
+				03DAB451187DF01A00BB9F35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03DAB459187DF01A00BB9F35 /* PBXTargetDependency */,
+			);
+			name = UIInputViewBugTests;
+			productName = UIInputViewBugTests;
+			productReference = 03DAB453187DF01A00BB9F35 /* UIInputViewBugTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03DAB42A187DF01A00BB9F35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Devin Doty";
+				TargetAttributes = {
+					03DAB452187DF01A00BB9F35 = {
+						TestTargetID = 03DAB431187DF01A00BB9F35;
+					};
+				};
+			};
+			buildConfigurationList = 03DAB42D187DF01A00BB9F35 /* Build configuration list for PBXProject "UIInputViewBug" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03DAB429187DF01A00BB9F35;
+			productRefGroup = 03DAB433187DF01A00BB9F35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03DAB431187DF01A00BB9F35 /* UIInputViewBug */,
+				03DAB452187DF01A00BB9F35 /* UIInputViewBugTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03DAB430187DF01A00BB9F35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B9EC3A187DF7AF00E2875B /* test_pattern.png in Resources */,
+				03DAB44E187DF01A00BB9F35 /* Images.xcassets in Resources */,
+				03DAB440187DF01A00BB9F35 /* InfoPlist.strings in Resources */,
+				03DAB449187DF01A00BB9F35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03DAB451187DF01A00BB9F35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DAB45F187DF01A00BB9F35 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03DAB42E187DF01A00BB9F35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DAB46C187DF07D00BB9F35 /* DDTextInputView.m in Sources */,
+				03DAB446187DF01A00BB9F35 /* DDAppDelegate.m in Sources */,
+				03DAB44C187DF01A00BB9F35 /* DDViewController.m in Sources */,
+				03DAB442187DF01A00BB9F35 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03DAB44F187DF01A00BB9F35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DAB461187DF01A00BB9F35 /* UIInputViewBugTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03DAB459187DF01A00BB9F35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03DAB431187DF01A00BB9F35 /* UIInputViewBug */;
+			targetProxy = 03DAB458187DF01A00BB9F35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03DAB43E187DF01A00BB9F35 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03DAB43F187DF01A00BB9F35 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03DAB447187DF01A00BB9F35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03DAB448187DF01A00BB9F35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03DAB45D187DF01A00BB9F35 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03DAB45E187DF01A00BB9F35 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03DAB462187DF01A00BB9F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03DAB463187DF01A00BB9F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03DAB465187DF01A00BB9F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIInputViewBug/UIInputViewBug-Prefix.pch";
+				INFOPLIST_FILE = "UIInputViewBug/UIInputViewBug-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03DAB466187DF01A00BB9F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIInputViewBug/UIInputViewBug-Prefix.pch";
+				INFOPLIST_FILE = "UIInputViewBug/UIInputViewBug-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		03DAB468187DF01A00BB9F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIInputViewBug.app/UIInputViewBug";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIInputViewBug/UIInputViewBug-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UIInputViewBugTests/UIInputViewBugTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		03DAB469187DF01A00BB9F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIInputViewBug.app/UIInputViewBug";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIInputViewBug/UIInputViewBug-Prefix.pch";
+				INFOPLIST_FILE = "UIInputViewBugTests/UIInputViewBugTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03DAB42D187DF01A00BB9F35 /* Build configuration list for PBXProject "UIInputViewBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03DAB462187DF01A00BB9F35 /* Debug */,
+				03DAB463187DF01A00BB9F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03DAB464187DF01A00BB9F35 /* Build configuration list for PBXNativeTarget "UIInputViewBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03DAB465187DF01A00BB9F35 /* Debug */,
+				03DAB466187DF01A00BB9F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03DAB467187DF01A00BB9F35 /* Build configuration list for PBXNativeTarget "UIInputViewBugTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03DAB468187DF01A00BB9F35 /* Debug */,
+				03DAB469187DF01A00BB9F35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03DAB42A187DF01A00BB9F35 /* Project object */;
+}
