@@ -4,7 +4,7 @@
 * **Product**: iOS SDK
 * **Rank**: No Value
 
-## Summary:
+### Summary:
 
 When using underlines and custom fonts with UITextView in iOS 7, we experience frequent crashes in `TComponentFont::GetUnderlineThickness()`.
 
@@ -20,7 +20,7 @@ When using underlines and custom fonts with UITextView in iOS 7, we experience f
 
 No crash occurs
 
-## Actual Results:
+### Actual Results:
 
 A crash occurs on the main thread in `TComponentFont::GetUnderlineThickness(CGAffineTransform const&)`.
 ## Version:
