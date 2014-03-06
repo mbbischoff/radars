@@ -49,7 +49,7 @@ Thread 0 Crashed:
 29  CoreFoundation                       0x2e53b253 CFRunLoopRunInMode + 106
 30  GraphicsServices                     0x3326f2eb GSEventRunModal + 138
 31  UIKit                                0x30df0845 UIApplicationMain + 1136
-32  Orangina                             0x000ae65f main (main.m:15)
+32  Tumblr                             0x000ae65f main (main.m:15)
 33  libdyld.dylib                        0x38e61ab7 start + 0
 
 Thread 1:
@@ -59,7 +59,7 @@ Thread 1:
 Thread 2:
 0   libsystem_kernel.dylib               0x38f18550 __semwait_signal + 24
 1   Foundation                           0x2efeb349 +[NSThread sleepForTimeInterval:] + 144
-2   Orangina                             0x0026ea69 -[YI13NPrivate run:] (YI13NPrivate.m:89)
+2   Tumblr                             0x0026ea69 -[YI13NPrivate run:] (YI13NPrivate.m:89)
 3   Foundation                           0x2efebc37 __NSThread__main__ + 1060
 4   libsystem_pthread.dylib              0x38f7ec5d _pthread_body + 138
 5   libsystem_pthread.dylib              0x38f7ebcf _pthread_start + 102
@@ -72,7 +72,7 @@ Thread 3:
 3   CoreFoundation                       0x2e53b471 CFRunLoopRunSpecific + 524
 4   CoreFoundation                       0x2e53b253 CFRunLoopRunInMode + 106
 5   Foundation                           0x2ef29697 -[NSRunLoop runMode:beforeDate:] + 254
-6   Orangina                             0x002cda4b +[JXURLConnectionOperation runLoopForever] (JXURLConnectionOperation.m:116)
+6   Tumblr                             0x002cda4b +[JXURLConnectionOperation runLoopForever] (JXURLConnectionOperation.m:116)
 7   Foundation                           0x2efebc37 __NSThread__main__ + 1060
 8   libsystem_pthread.dylib              0x38f7ec5d _pthread_body + 138
 9   libsystem_pthread.dylib              0x38f7ebcf _pthread_start + 102
@@ -188,8 +188,8 @@ Thread 13:
 15  libRIP.A.dylib                       0x2e9ce131 ripc_DrawImage + 598
 16  CoreGraphics                         0x2e6816eb CGContextDelegateDrawImage + 50
 17  CoreGraphics                         0x2e681571 CGContextDrawImage + 284
-18  Orangina                             0x001edf4f -[TMImageView newDecompressedImage:] (TMImageView.m:359)
-19  Orangina                             0x001ed817 __38-[TMImageView decodeImageInBackground]_block_invoke (TMImageView.m:235)
+18  Tumblr                             0x001edf4f -[TMImageView newDecompressedImage:] (TMImageView.m:359)
+19  Tumblr                             0x001ed817 __38-[TMImageView decodeImageInBackground]_block_invoke (TMImageView.m:235)
 20  libdispatch.dylib                    0x38e4d0c3 _dispatch_call_block_and_release + 8
 21  libdispatch.dylib                    0x38e527d9 _dispatch_root_queue_drain + 222
 22  libdispatch.dylib                    0x38e529c5 _dispatch_worker_thread2 + 54
@@ -208,7 +208,7 @@ Thread 14:
 8   CoreGraphics                         0x2e681571 CGContextDrawImage + 284
 9   ImageIO                              0x2f369faf CGImageCreateCopyWithParametersNew + 1728
 10  ImageIO                              0x2f36979f CGImageSourceCreateThumbnailAtIndex + 2390
-11  Orangina                             0x0018946f __39-[TMImageController decodeGIF:key:url:]_block_invoke (TMImageController.m:166)
+11  Tumblr                             0x0018946f __39-[TMImageController decodeGIF:key:url:]_block_invoke (TMImageController.m:166)
 12  libdispatch.dylib                    0x38e4d0c3 _dispatch_call_block_and_release + 8
 13  libdispatch.dylib                    0x38e51e7b _dispatch_queue_drain + 372
 14  libdispatch.dylib                    0x38e4ef93 _dispatch_queue_invoke + 40
@@ -238,7 +238,7 @@ Link Register Analysis:
   Type: 1
 
 Binary Images:
-   0xa8000 -   0x35ffff +Orangina armv7s  <9f176d2d28a23a14ae97b29e89659e96> /Users/USER/Orangina.app/Orangina
+   0xa8000 -   0x35ffff +Tumblr armv7s  <9f176d2d28a23a14ae97b29e89659e96> /Users/USER/Tumblr.app/Tumblr
 0x2d344000 - 0x2d42dfff  RawCamera armv7s  <bf399f99756e3fa992c2c0d7f2eb0049> /System/Library/CoreServices/RawCamera.bundle/RawCamera
 0x2d497000 - 0x2d598fff  AVFoundation armv7s  <759b362f09e53f37a2ec82372a95d1de> /System/Library/Frameworks/AVFoundation.framework/AVFoundation
 0x2d599000 - 0x2d5c1fff  libAVFAudio.dylib armv7s  <0925efab4dd338e382aa5b10cdbed33f> /System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
