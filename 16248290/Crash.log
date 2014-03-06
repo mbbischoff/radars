@@ -1,9 +1,9 @@
 Incident Identifier: 4272FD88-FB24-430C-B8DC-216252B0D618
 CrashReporter Key:   A30DB253-E95E-4D57-BE3D-E776F670B493
 Hardware Model:      iPhone6,1
-Process:         Orangina [6225]
-Path:            /Users/USER/Orangina.app/Orangina
-Identifier:      com.tumblr.Orangina
+Process:         Tumblr [6225]
+Path:            /Users/USER/Tumblr.app/Tumblr
+Identifier:      com.tumblr.Tumblr
 Version:         232
 Code Type:       ARM
 Parent Process:  launchd [1]
